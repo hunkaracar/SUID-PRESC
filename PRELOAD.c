@@ -11,6 +11,8 @@ void_init(){
 
 }
 
+//When the above C code is infiltrated into the system, if the conditions are met, it is used to Increase Authorization in the POST EXPLOITING phase.
+
 /*
 
 Save the file as x.c
