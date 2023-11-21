@@ -16,5 +16,8 @@
 
 ```bash
 find / -type f -perm /4000 -ls 2>/dev/null
-find / -perm -u=s -type -f 2>/dev/null
+
+```bash
+find / -type f -perm -u=s 2>/dev/null
+
 
