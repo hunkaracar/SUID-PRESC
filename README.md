@@ -17,11 +17,6 @@
 ```bash
 find / -type f -perm /4000 -ls 2>/dev/null
 
-## Another SUID Files scan
-
-- To find SUID files, you can use the following command:
-
-```bash
 find / -type f -perm -u=s 2>/dev/null
 
 
