@@ -15,4 +15,6 @@
 - To find SUID files, you can use the following command:
 
 ```bash
-find / -type f -perm /4000 2>/dev/null
+find / -type f -perm /4000 -ls 2>/dev/null
+find / -perm -u=s -type -f 2>/dev/null
+
